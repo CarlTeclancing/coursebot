@@ -1,3 +1,16 @@
+# Ignore all files by default
+*
+
+# But track these files
+!bot.py
+!requirements.txt
+!.gitignore
+
+# Common Python files to ignore
 .env
 __pycache__/
 *.log
+*.pyc
+.pytest_cache/
+venv/
+env/
